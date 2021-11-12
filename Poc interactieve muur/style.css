@@ -1,0 +1,175 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    font-family: futura;
+    overflow: hidden;
+}
+
+.logo{
+    width: auto;
+    height: 230px;
+}
+
+.logosmall{
+    width: auto;
+    height: 100px;
+    margin: 20px;
+}
+
+h1{
+    color: #fff;
+    font-size: 80px;
+}
+
+h2{
+    color: #fff;
+    font-size: 60px;
+}
+
+.line{
+    height: 50px;
+    width: auto;
+    position: absolute;
+    bottom: 10px;
+}
+
+.linevert{
+    height: 50px;
+    width: auto;
+    rotate: 270deg;
+    margin-right: -60px;
+    margin-top: 70px;
+    opacity: 0;
+}
+
+.layup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.qr{
+    width: 300px;
+    height: auto;
+}
+
+.qrlayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.layoutcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.blok{
+    height: auto;
+    width: 150px;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+
+.shoe{
+    width: 250px;
+    height: 130px;
+}
+
+.circle{
+    border:10px solid #fff;    
+    height:200px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    
+}
+
+.circle:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    border:10px solid yellowgreen;    
+}
+
+.circleduim {
+    transform: scale(1.2);
+    transition: 1s;
+    border:10px solid yellowgreen;   
+}
+
+.circleduimom {
+    transform: scale(1.2);
+    transition: 1s;
+    border:10px solid yellowgreen;   
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-size: 110px;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 10px;
+    left: 0%;
+    position: absolute;
+    background: #fff;
+    transition: 1s ease;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+i{
+    color: #fff;
+}
+
+.placement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+canvas {
+    opacity: 0;
+    display: none;
+}
+
+.duimomhoog {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.duimomlaag {
+    transform: scale(1.2);
+    transition: 1s;
+}
