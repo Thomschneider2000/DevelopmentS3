@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Disney Intro</title>
+</head>
+
+<body>
+
+    <div class="alignment">
+        <button id="knop" onclick="myFunction(); play();">Click me</button>
+        <a id="link" href="https://www.youtube.com/watch?v=ayRlrAtnmlY">Klik hier voor de originele video</a>
+        <span id="vierkant"></span>
+        <svg class="movesvg1" width="261.9639892578125" height="314.40399169921875"
+            viewBox="0 0 261.964 414.404">
+            <path id="boog1" data-name="Path 1" d="M709.544,645.456s19.337-232.773,380.794-198.241"
+                transform="translate(542.08 -755.946) rotate(82)" fill="none" stroke="#76b6f0" stroke-width="15"
+                class="svg-elem-1"></path>
+        </svg>
+        <svg class="movesvg2" width="484.7099914550781" height="215.52099609375"
+            viewBox="0 0 484.71 495.521">
+            <path id="boog2" data-name="Path 1" d="M343.715,725.775S354.8,265.64,820.481,237.921"
+                transform="translate(-336.217 -230.434)" fill="none" stroke="#76b6f0" stroke-width="28"
+                class="svg-elem-2"></path>
+        </svg>
+        <img id="castle" class="castleimg" src="media/disneycastle.png" />
+        <h1 id="disney">Walt Disney</h1>
+        <h2 id="pictures">Pictures</h2>
+    </div>
+    <script>
+        //change the properties of css//
+        function myFunction() {
+            document.getElementById("link").style = "display: none;";
+            document.getElementById("vierkant").style = "display: inline;";
+            document.getElementById("knop").style = "display: none;";
+            document.getElementById("castle").style = "display: inline;";
+            document.getElementById("disney").style = "display: inline;";
+            document.getElementById("pictures").style = "display: inline;";
+            document.getElementById("boog1").style = "display: inline;";
+            document.getElementById("boog2").style = "display: inline;";
+        }
+        //Add music on click//
+        var audio = new Audio("media/Classic Walt Disney Pictures Intro.mp3");
+
+        document.onclick = function () {
+            audio.play();
+        }
+
+    </script>
+
+</body>
+
+</html>

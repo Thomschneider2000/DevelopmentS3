@@ -1,0 +1,197 @@
+body{
+    background-color: #006b99;
+    overflow: hidden;
+}
+
+.alignment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+  
+  
+span{
+    background-color: #006b99;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    position: relative;
+    top: 200px;
+    display: none;
+    animation: vierkant 17s ease 0s normal forwards;
+}
+
+
+.castleimg{
+    width: 40%;
+    height: auto;
+    z-index: -1;
+    margin-top: -1020px;
+    display: none;
+}
+
+button{
+    display: inline;
+}
+
+@keyframes vierkant {
+    0.0%{
+        transform: translate(0px, -200px);
+    }
+    100%{
+        transform: translate(0px, 500px);
+    }
+}
+
+
+h1{
+    color: white;
+    font-size: 165px;
+    font-family: "new_waltographregular";
+    margin-top: -130px;
+    z-index: 2;
+    animation: myAnimation 9s ease 0s normal forwards;
+    display: none;
+}
+
+h2{
+    display: none;
+    color: white;
+    font-size: 90px;
+    letter-spacing: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    font-family: 'Lora', serif;
+    margin-top: -130px;
+    z-index: 2;
+    animation: myAnimation 11s ease 0s normal forwards;
+}
+
+
+a{
+    margin-top: 10px;
+    text-decoration: none;
+    border-bottom: white;
+    color: white;
+    font-family: 'Lora', serif;
+    display: block;
+}
+
+
+@-webkit-keyframes animate-svg-stroke-1 {
+    0% {
+      stroke-dashoffset: 477.86798095703125px;
+      stroke-dasharray: 477.86798095703125px;
+    }
+  
+    100% {
+      stroke-dashoffset: 955.7359619140625px;
+      stroke-dasharray: 477.86798095703125px;
+    }
+  }
+  
+  @keyframes animate-svg-stroke-1 {
+    0% {
+      stroke-dashoffset: 477.86798095703125px;
+      stroke-dasharray: 477.86798095703125px;
+    }
+  
+    100% {
+      stroke-dashoffset: 955.7359619140625px;
+      stroke-dasharray: 477.86798095703125px;
+    }
+  }
+  
+  .svg-elem-1 {
+      display: none;
+    -webkit-animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
+            animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 10s both;
+  }
+  
+  .movesvg1{
+    position: relative;
+    top: -380px;
+    left: 195px;
+  }
+
+  .movesvg2{
+    position: relative;
+    top: -672px;
+    right: 124px;
+  }
+ 
+
+ @-webkit-keyframes animate-svg-stroke-2 {
+    0% {
+      stroke-dashoffset: 755.3397216796875px;
+      stroke-dasharray: 755.3397216796875px;
+    }
+  
+    100% {
+      stroke-dashoffset: 1510.679443359375px;
+      stroke-dasharray: 755.3397216796875px;
+    }
+  }
+  
+  @keyframes animate-svg-stroke-2 {
+    0% {
+      stroke-dashoffset: 755.3397216796875px;
+      stroke-dasharray: 755.3397216796875px;
+    }
+  
+    100% {
+      stroke-dashoffset: 1510.679443359375px;
+      stroke-dasharray: 755.3397216796875px;
+    }
+  }
+  
+  .svg-elem-2 {
+      display: none;
+    -webkit-animation: animate-svg-stroke-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
+            animation: animate-svg-stroke-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.6s both;
+  }
+  
+
+@keyframes myAnimation {
+    0.0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        color: 1;
+    }
+}
+
+
+
+
